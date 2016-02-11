@@ -213,5 +213,19 @@ Please take the time to look at your entries and remove the Auto-type sequences.
 <pubDate>Wed, 03 Dec 2014 20:20:48 GMT</pubDate>
 <enclosure url="https://github.com/mstarke/MacPass/releases/download/0.5.1-alpha/MacPass-0.5.1-alpha.zip" sparkle:shortVersionString="0.5.1" sparkle:version="2556" type="application/octet-stream" /></item>
       
+        <item><title>Version 0.5.2</title>
+<description>
+<![CDATA[
+<h3 id="changelog">Changelog</h3>
+
+<p>For a complete list of changes see <a href="https://github.com/mstarke/MacPass/compare/0.5.1-alpha...0.5.2-alpha">0.5.1-alpha&#8230;0.5.2-alpha</a> and the corresponding submodule commits</p>
+<ul>
+<li>Switched to GitHub appcast because of vulnerability in Sparkle Update process over http</li>
+</ul>
+]]>
+</description>
+<pubDate>Wed, 10 Feb 2016 23:00:00 GMT</pubDate>
+<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.5.2-alpha/MacPass-0.5.2-alpha.zip" sparkle:shortVersionString="0.5.2" sparkle:version="2557" type="application/octet-stream" /></item>
+      
    </channel>
 </rss>
