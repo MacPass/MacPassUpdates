@@ -262,5 +262,17 @@
 			<pubDate>Fr 12 Feb 2016 17:24:06 UTC</pubDate>
 			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.6-alpha/MacPass-0.6-alpha.zip" sparkle:shortVersionString="0.6" sparkle:version="12310" type="application/octet-stream" />
 		</item>
+		<item>
+			<title>Version 0.6</title>
+			<description>
+				<![CDATA[
+    	    		<h3>Changelog</h3>
+					<p>For a complete list of changes see <a href="https://github.com/mstarke/MacPass/compare/0.6-alpha...0.6.1-alpha">0.6-alpha…0.6.1-alpha</a> and the corresponding submodule commits</p>
+					<p>Fixed crash due to incompatible sort descriptor preferences</p>
+				]]>
+			</description>
+			<pubDate>Mo 15 Feb 2016 16:54:03 UTC</pubDate>
+			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.6.1-alpha/MacPass-0.6.1-alpha.zip" sparkle:shortVersionString="0.6.1" sparkle:version="12350" type="application/octet-stream" />
+		</item>
 	</channel>
 </rss>
