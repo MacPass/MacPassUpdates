@@ -263,7 +263,7 @@
 			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.6-alpha/MacPass-0.6-alpha.zip" sparkle:shortVersionString="0.6" sparkle:version="12310" type="application/octet-stream" />
 		</item>
 		<item>
-			<title>Version 0.6</title>
+			<title>Version 0.6.1</title>
 			<description>
 				<![CDATA[
     	    		<h3>Changelog</h3>
