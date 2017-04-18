@@ -1,0 +1,116 @@
+<h3 id="notes">Notes</h3>
+<p>Version 0.4 and 0.4.1 have introduced a bug that stores Auto-type keystroke sequences even if they are inherited.
+Additionally the default sequence wasn&#8217;t the usual <code>{USERNAME}{TAB}{PASSWORD}{ENTER}</code> but the rather bad <code>{TAB}{USERNAME}{TAB}{PASSWORD}{ENTER}</code>.
+Please take the time to look at your entries and remove the Auto-type sequences. Additionally there&#8217;s a helper you can use via Edit > Fix Autotype… that lets	you strip all auto-type sequences.</p>
+<h3 id="upcoming">Upcoming</h3>
+<ul>
+<li>0.5.x will be the last version to run on 10.8.</li>
+<li>0.6 is going to require 10.9 and will include KeePassHttp support.</li>
+<li>The editing system will be changed to work more to the Keepass standard. That is, undo is based on history entries. This kills some of the nicer features of a full undo/redo system but should make a huge step towards interoperability</li>
+</ul>
+<h3 id="noteworthy_changes">Noteworthy Changes</h3>
+<ul>
+<li>Resolved issues with wrong Auto-type sequences</li>
+<li>Added Auto-type fix dialog that helps drill down on malformed databases</li>
+<li>Enabled Autotype. The feature is not fully working but simple (default) scenarios should work.</li>
+<li>Added password duplicates and expired entries to search filters.</li>
+<li>Added Quick-look preview. This creates a temporary file and thus is considered harmful. The file gets removed by MacPass but in case of a crash the files might stay there until OS X cleans the temporary folders</li>
+<li>MacPass now comes with document icons</li>
+<li>MacPass now tries to open any file regardless of file extension (this works only in the open dialog!)</li>
+</ul>
+<h3 id="known_issues">Known Issues</h3>
+<ul>
+<li>KeePassHttp not enabled due to 10.9 SDK requirements</li>
+<li>Auto-type not fully functional</li>
+<li>Editing of auto-type not fully functional </li>
+<li>Not all native Icons supported</li>
+<li>Recycle-bin can only be deleted completely (no selected Entry removal)</li>
+<li>No history entries will be created on changes</li>
+<li>.lock files are ignored</li>
+</ul>
+<h3 id="changelog">Changelog</h3>
+<p>For a complete list of changes see <a href="https://github.com/mstarke/MacPass/compare/0.4.1-alpha...0.5-alpha">0.4.1-alpha&#8230;0.5-alpha</a> and the corresponding submodule commits</p>
+<ul>
+<li>Fixed #265 Undo-stack doesn&#8217;t get correctly updated when locking/unlocking</li>
+<li>Fixed #250 Allow opening of KDBX files that don&#8217;t have the &#8220;.kdbx&#8221; suffix</li>
+<li>Fixed #257 MacPass crashes when an entry is selected and ⌘+F is pressed (again</li>
+<li>Fixed #176 Associated files icon / symbol</li>
+<li>Hotkey settings now actually should work.</li>
+<li>Fixed #251 Password creator now can remove single entry defaults (press alt to change the &#8220;Set Defaults&#8221; Button)</li>
+<li>Fixed collapsing password input field</li>
+<li>Fixed #244 NOTES sub-window is big/overlaying over TAGS sub window </li>
+<li>Unified Validation for Actions more</li>
+<li>Fixed #111 Using mail like color scheme in badges</li>
+<li>Fixed #241 Password Generate Length limited to 64 characters</li>
+<li>Search bar should work better with wrong selections</li>
+<li>Fixed #236 overlay icon color on Yosemite</li>
+<li>Fixed auto-type on Yosemite (issue #230)</li>
+<li>Refactored document search. Data is now serializeable</li>
+<li>Fixed #231 Created groups are now scrolled into view</li>
+<li>Date picker uses the actual date of the selected item</li>
+<li>Implemented password enforce and recommendation system</li>
+<li>Expired entries and groups now get updates at runtime</li>
+<li>Fixed #228 Encryption rounds are now stored when settings are saved</li>
+<li>Fixed content hugging priorities in auto-type tab</li>
+<li>Implemented obfuscated auto-typing and restoring of pasteboard objects</li>
+<li>Better display of no expiration dates. Handling of cancel now doesn&#8217;t overwrite existing expiry date</li>
+<li>Expired entries and groups now get a warning icon</li>
+<li>Added option to set expiration to 90 days</li>
+<li>{DELAY} now get correct values assigned</li>
+<li>Added {CLEARFIELD} to auto-type commands. Stubbs for {DELAY X}</li>
+<li>Fixed issue with replacing spaces inside commands</li>
+<li>Removed duplicate paste commands for auto-type</li>
+<li>Fixed not empty trash action</li>
+<li>Fixed auto-type for fields containing curly brackets</li>
+<li>Fixed auto-type hotkey getting registered without task</li>
+<li>Fixed issue with wrong sort descriptors on modification date</li>
+<li>Idle lock now uses application idle time instead of system idle time</li>
+<li>Fixed exit Search issues</li>
+<li>Implemented workflow double click settings (#220)</li>
+<li>Fixed reseting defaults on browser selection</li>
+<li>Fixed wrong value on browser selection on canceled custom browser selection</li>
+<li>Make selected textfield end editing when a save will occur (issue #203)</li>
+<li>Finished implementing custom browser support</li>
+<li>Percent escape strings before creating URLs</li>
+<li>HotKey is not Updated correctly</li>
+<li>Newly created Group now gets selected in Outline</li>
+<li>Newly created Groups now get shown by expanding their parent node after creation</li>
+<li>More usage of NSStringFromClass and NSStringFromSelector</li>
+<li>Refactored window and view controller to use windowNibName and nibName. Fixes #164</li>
+<li>Change password dialog now can select more than .key and .xml key files. Fixes #214</li>
+<li>Clear key file button not working at password input. Fixes #184</li>
+<li>Fixed #156 On &#8220;New entry&#8221;, focus not given to the entry &#8220;Title&#8221;</li>
+<li>Added additional URL placeholders. Moved breadcrumb to KPKGroup</li>
+<li>Associations are now found on Auto-type</li>
+<li>Wait 0.1s between the keydown and keyup event</li>
+<li>Hotkey is stored in defaults</li>
+<li>xyz was missing from list of password generation characters</li>
+<li>Select correct row for new entry regardless of sort order</li>
+<li>Improved &#8220;Add Entry&#8221; workflow (issue #156)</li>
+<li>Updated German translation</li>
+<li>Fixed bug with icon resetting to default after closing popover</li>
+<li>Added ability to set default password generation settings (issue #166)</li>
+<li>Make auto-type work in more situations</li>
+<li>Dutch Translation</li>
+<li>Entries copied to pasteboard now get placeholder and references evaluated</li>
+<li>Updates German localization</li>
+<li>Increased default rounds for password hashing to 50000 and added default settings key</li>
+<li>Fixed #183 menu item validation for AddGroup/AddEntry now just check for a selected group and does not require a selected item anymore</li>
+<li>Fixed sorting and selection of database icons (issue #118)</li>
+<li>Fixed issue with wrong entry reference on copyWithZone on KPKEntry</li>
+<li>Fixed auto type not getting the correct entry set after cloning</li>
+<li>Fixed #178 Modification Time is preserved on History entries</li>
+<li>Fixed issue with inspector still displaying deleted entries</li>
+<li>Added Simplified Chinese localization files</li>
+<li>fixed #165 Password generator is reseted if opened as single window not via generate button on entry</li>
+<li>fixed #162 copy username and copy password can be added as toolbar buttons</li>
+<li>fixed #155 added Quick-look like preview for attachments</li>
+<li>fixed #161 settings to copy to clipboard on password creation are preserved. Default behavior is to restore the last sate</li>
+<li>Fixed #159 URL is now below Password</li>
+<li>Added recent searches menu to the search field</li>
+<li>fixed #157. cmd+delete now triggers the delete action</li>
+<li>fixed #158 Newly created entries now get the default username correctly set</li>
+<li>Disable image change on expired entries</li>
+<li>Fixed height of image views in outline view and entry table</li>
+<li>Expiration settings are not undoable</li>
+</ul>

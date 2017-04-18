@@ -1,0 +1,38 @@
+<h3>Changelog</h3>
+<p>For a complete list of changes see <a href="https://github.com/mstarke/MacPass/compare/0.5.1-alpha...0.6-alpha">0.5.2-alpha…0.6-alpha</a> and the corresponding submodule commits</p>
+<h4>Noteworthy changes</h4>
+<ul>
+<li>the undo/redo system on editing entries/groups is removed, but there's still no history support</li>
+<li>a simple plugin system is in place. KeePassHTTP is supported via the <a href="https://github.com/MacPass/MacPassHTTP">MacPassHTTP</a> Plugin</li>
+<li>fixed possible database corruption due to invalid XML characters</li>
+<li>fixed possible database corruption due to wrong storage of window associtioans</li>
+<li>multiple window associations now get stored correctly, not just the last one</li>
+<li>saving while a textfield still has focus now correctly stores the changes made in the textfield</li>
+<li>key file to database file mapping now hashes the database url to obscure the mapping</li>
+<li>Italian translation by <a href="http://www.francescoservida.ch/">Francesco Servida</a>
+</li>
+<li>Russian translation by <a href="http://mrdoggy.info/">Alex Petkevich</a>
+</li>
+<li>the <code>{DELAY}</code> Autotype command now actually works</li>
+<li>added autotype of current selected entry via context menu</li>
+<li>autotype generally should be more robust</li>
+<li>autotype matching now works more like Keepass</li>
+<li>autotype now shows an overlay for user feedback</li>
+<li>fixed various crashes on 10.8 and 10.9</li>
+<li>fixed issue of some settings being updated regardless of user's choice</li>
+<li>fixed issue in autotype not matching tags correctly</li>
+<li>fixed numerous autotype bugs</li>
+<li>fixed crash on closing the settings window</li>
+<li>fixed a crash occuring while MacPass was locking databases and others windows (settings, etc.) were open as well</li>
+<li>improved password generator by <a href="https://github.com/mariosangiorgio">Mario Sangiorgio</a>
+</li>
+<li>fixed bug resulting in MacPass not opening when DB is remembered but missing <a href="https://github.com/sub0ne">Michael Belz</a>
+</li>
+<li>added header hash verification for KDBX files</li>
+<li>added new icons by <a href="https://github.com/JoannaOlsen">Joanna Olsen</a>
+</li>
+<li>added help linking to github page</li>
+<li>fixed multiple issues on references and placeholders not being properly expanded</li>
+<li>dragging URLs now uses the host as entry name.</li>
+<li>fixed various issues with search and autotype settings on groups not being properly saved and/or displayed</li>
+</ul>

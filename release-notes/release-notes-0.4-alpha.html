@@ -1,0 +1,38 @@
+<h3>Changes</h3>
+<p>For a complete list of changes see <a href="https://github.com/mstarke/MacPass/compare/0.3.8-alpha...0.4-alpha" class="commit-link"><tt>0.3.8-alpha...0.4-alpha</tt></a> and the corresponding submodule commits</p>
+<h4>Database</h4>
+<ul>
+<li>added support to save database in KBD and KDBX format</li>
+<li>added support to save custom icons in KeePassX format in KDB databases</li>
+<li>added support KeePass Tree stat in KDB databases</li>
+<li>added support for KeePassX tree state in KDB databases</li>
+<li>added export to KeePassXML</li>
+<li>fixed issue that stripped deleted objects in KDBX are supported</li>
+<li>fixed issue, that stripped history on save</li>
+<li>fixed issue with no password in database (previous version always used an empty string as password)</li>
+</ul>
+<h4>UI</h4>
+<ul>
+<li>added separate notes view in the inspector</li>
+<li>added ui for auto type (edit not fully working)</li>
+<li>added full drag and drop support in tree</li>
+<li>added clone entries action (deep clone with history and attachments)</li>
+<li>added ad entry from template option</li>
+<li>added support for database colours</li>
+<li>added feature to create entries by dragging an at the window</li>
+<li>attachments can be removed via backspace</li>
+</ul>
+<h4>Known Issues</h4>
+<ul>
+<li>KeePassHttp not present</li>
+<li>Autotype disabled</li>
+<li>Interface is not fully functional</li>
+<li>Reference and Placeholder resolving on copy not working</li>
+<li>Icon selection not working correctly</li>
+<li>Not all native Icons supported</li>
+<li>Expiry date cannot be set</li>
+<li>Expired entries aren't marked</li>
+<li>Recycle-bin can only be deleted completely (no selected Entry removal)</li>
+<li>No history entries will be created on changes</li>
+<li>.lock files are ignored</li>
+</ul>
