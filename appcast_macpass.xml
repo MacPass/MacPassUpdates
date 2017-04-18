@@ -276,15 +276,7 @@
 		</item>
 		<item>
 			<title>Version 0.6.2</title>
-			<description>
-				<![CDATA[
-        			<h3>Changelog</h3>
-					<p>For a complete list of changes see <a href="https://github.com/mstarke/MacPass/compare/0.6.1-alpha...0.6.2-alpha">0.6.1-alpha…0.6.2-alpha</a> and the corresponding submodule commits</p>
-					<ul>
-					<li>Fixed broken keyfile remembering introduced in 0.6</li>
-					</ul>
-				]]>
-			</description>
+			<sparkle:releaseNotesLinks>https://github.com/mstarke/MacPass/releases/download/0.6.2-alpha/release-notes-0.6.2-alpha.html</sparkle:releaseNotesLinks>
 			<pubDate>Mo 22 Feb 2016 10:05:00 UTC</pubDate>
 			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.6.2-alpha/MacPass-0.6.2-alpha.zip" sparkle:shortVersionString="0.6.2" sparkle:version="12420" type="application/octet-stream" />
 		</item>		
