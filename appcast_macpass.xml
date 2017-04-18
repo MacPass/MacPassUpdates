@@ -276,7 +276,7 @@
 		</item>
 		<item>
 			<title>Version 0.6.2</title>
-			<sparkle:releaseNotesLinks>https://github.com/mstarke/MacPass/releases/download/0.6.2-alpha/release-notes-0.6.2-alpha.html</sparkle:releaseNotesLinks>
+			<sparkle:releaseNotesLink>https://github.com/mstarke/MacPass/releases/download/0.6.2-alpha/release-notes-0.6.2-alpha.html</sparkle:releaseNotesLink>
 			<pubDate>Mo 22 Feb 2016 10:05:00 UTC</pubDate>
 			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.6.2-alpha/MacPass-0.6.2-alpha.zip" sparkle:shortVersionString="0.6.2" sparkle:version="12420" type="application/octet-stream" />
 		</item>		
