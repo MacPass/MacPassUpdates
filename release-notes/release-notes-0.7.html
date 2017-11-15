@@ -2,28 +2,33 @@
 <p>MacPass 0.7 introduces a lot of changes and a vast amount of bug fixes.<p>
 <h4>Features</h4>
 <ul>
-<li>KDBX4 support (ChaCha Cipher, Argon2 Key Derivation)</li>
-<li>Database merge on file change as well as manual merge</li>
-<li>Twofish Cipher for KDB and KDBX databases</li>
-<li>Full support of the entry history</li>
-<li>Partial support for multi-selection of entries and groups</li>
-<li>Support for custom icons</li>
-<li>Create custom icons from favorite icons for URLs</li>
-<li>Enhanced display in database settings</li>
-<li>Auto-completion for tags</li>
-<li>Added settings to enabled and change history support on databases</li>
-<li>Added additional enforce password change once option</li>
-<li>Added setting to lock database if user changes (e.g fast user switching)</li>
-<li>Moved custom fields to the general tab and removed additional tab.</li>
-<li>Removed a lot of annoyances when working with KDB files</li>
-<li>Enhanced Auto-type candidate selection dialog</li>
+  <li>KDBX4 support (ChaCha Cipher, Argon2 Key Derivation)</li>
+  <li>Database merge on file change as well as manual merge</li>
+  <li>Twofish Cipher for KDB and KDBX databases</li>
+  <li>Full support of the entry history</li>
+  <li>Partial support for multi-selection of entries and groups</li>
+  <li>Support for custom icons</li>
+  <li>Create custom icons from favorite icons for URLs</li>
+  <li>Enhanced display in database settings</li>
+  <li>Auto-completion for tags</li>
+  <li>Background color of entries is used to colorize default icons</li>
+  <li>Added settings to enabled and change history support on databases</li>
+  <li>Added additional enforce password change once option</li>
+  <li>Added setting to lock database if user changes (e.g fast user switching)</li>
+  <li>Moved custom fields to the general tab and removed additional tab.</li>
+  <li>Removed a lot of annoyances when working with KDB files</li>
+  <li>Enhanced Auto-type candidate selection dialog</li>
 </ul>
 <h4>Bugfixes</h4>
 <ul>
-<li>fixed broken clearing of clipboard when copy is  directly invoked via <code>Cmd+C</code> or menu item on text inputs</li>
-<li>fixed issues resulting in placeholders not being evaluated on Auto-type</li>
-<li>fixed multiple issues resulting in lost data after edits (notes in particular)</li>
-<li>removed many incompatibilities in KDBX output with other Keepass clients</li>
+  <li>fixed broken clearing of clipboard when copy is  directly invoked via <code>Cmd+C</code> or menu item on text inputs</li>
+  <li>fixed issues resulting in placeholders not being evaluated on Auto-type</li>
+  <li>fixed multiple issues resulting in lost data after edits (notes in particular)</li>
+  <li>removed many incompatibilities in KDBX output with other Keepass clients</li>
+</ul>
+<h4>Known Issues</h4>
+<ul>
+  <li>it's currently not possible to show protected custom attributes independently from their protected setting</li>
 </ul>
 <p>For a complete list of changes see <a href="https://github.com/mstarke/MacPass/compare/0.6.2-alpha...0.7">0.6.2-alpha…0.7</a> and the corresponding submodule commits</p>
-<p><strong>This Release requires 10.10. Support for 10.8 and 10.9 has been dropped.</strong></p>
+<p><strong>Version 0.7 requires macOS 10.10. Support for 10.8 and 10.9 has been dropped.</strong></p>
