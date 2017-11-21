@@ -3,12 +3,16 @@
 <h4>Features</h4>
 <ul>
   <li>Remove plugins in the plugin settings via the remove button</li>
-  <li>Add plugin in the plugin settings by draggin them onto the table view</li>
-  <li>Not loaded plugins will now be displayed in the plugins window if possible (e.g. if unsecure or broken)</li>
+  <li>Add plugins in the plugin settings by dragging them onto the table view</li>
+  <li>Unsupported plugins will now be displayed with a status in the plugins window if possible (e.g. if insecure or broken) instead of not being displayed at all</li>
+  <li>Added display of database version of file. Go to <em>Database Settings &rarr; General</em> to see the file version. This feature does show the version of the file on disk which <strong>might not be the same</strong> after another save is performed since unsaved change might lead to a different format being chosen.</li>
+  <li>Enabled lock for new databases which will now query the user for a password and a file to save the database before locking it</li>
 </ul>
 <h4>Bugfixes</h4>
 <ul>
   <li>Fixed a crash when more than one reference was used inside a filed or autotype yielded more than one reference in the sequence</li>
+  <li>Fixed misbehaving Fix-Autotype-Window resulting in the window being used for new documents</li>
+  <li>Fixed issue when locking and then unlocking a KDB file resulting in display of stale data</li>
 </ul>
 <p>For a complete list of changes see <a href="https://github.com/mstarke/MacPass/compare/0.7.1...0.7.2">0.7.1…0.7.2</a> and the corresponding submodule commits</p>
 
