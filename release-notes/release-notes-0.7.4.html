@@ -1,0 +1,106 @@
+<h3>Changelog</h3>
+<p><strong>Version 0.7.x breaks the old plugin API. Thus you need to update any plugins to work again!</strong></p>
+<h4>Bugfixes</h4>
+<ul>
+  <li>Fixed hang in autotype candidate selection dialog if autotype sequence contains interactive commands</li>
+  <li>Improved Dutch localization (<a href="https://github.com/MacPass/MacPass/issues/753">#753</a>)</li>
+  <li>Added preferences to allow for universal clipboard support. Item menu actions now should work in more scenarios</li>
+  <li>Selection inside edit fields are now respected when copying</li>
+  <li>Unifed all item- ation menu entries (table, action, menu bar)</li>
+  <li>Added context menu entry to enable copying references to entries</li>
+  <li>Plugin repository browser now supports downloading and showing downloaded files in Finder.</li>
+  <li>Fixed bug in entropy calculation when using mixed character sets and added support for required character option</li>
+  <li>Password generator now allows to require a character form each character group</li>
+  <li>Fixes crash of MacPass when quitting while an sheet alert was shown</li>
+  <li>Removed delay when sending key-press events</li>
+  <li>Reducided minimal widths of entry list to allow for narrow singe-column view</li>
+  <li>Removed autosave of selection changes. Save only occurs on lock.</li>
+  <li>Removed need to double click on "Choose…" in key file popup to show open panel (fixes <a href="https://github.com/MacPass/MacPass/issues/54">#54</a> and <a href="https://github.com/MacPass/MacPass/issues/855">#855</a>)</li>
+  <li>Popovers now keep open when MacPass looses focus</li>
+  <li>Disabled direct fail of autotype on missing access. Added time out for user interaction to prevent unexpected behaviour</li>
+  <li>Enabled drag and drop of search result for reordering</li>
+  <li>Added option to close MacPass if the last window is closed (default is NO)</li>
+  <li>Correctly update document state when group selection has changed</li>
+  <li>Fixed issue with resetting the selected group on first unlock.</li>
+  <li>Fixed issue with expiration date popup showing today instead of set date (fixes <a href="https://github.com/MacPass/MacPass/issues/845">#845</a>)</li>
+  <li>Using custom supressable dialog to check for autotype capabilities</li>
+  <li>Attachments now can be dragged out onto the finder.</li>
+  <li>Added support for dragging multiple groups as well as entries.</li>
+  <li>Autotype now uses key presses instead of copy and paste from clipboard whenever possible.</li>
+  <li>Added plugin browser</li>
+  <li>Added compatibilty check for plugins</li>
+  <li>Welcome window now displays a list of recent documents.</li>
+  <li>Enhanced notifications for Autotype</li>
+  <li>Added 5 Minutes option for clipboard clear time</li>
+  <li>Added alert when mergin KDB files</li>
+  <li>Added warning in Integration settings when autotype is not available</li>
+  <li>Added Accessibilty verification for macOS 10.14 to allow for better user experince</li>
+  <li>Disabled universal clipboard by default to prevent sensitive data from being leaked</li>
+  <li>Added option to re-enable Universal Clipboard</li>
+  <li>Added support for Dark Mode</li>
+  <li>Fixed rendering bug on 10.10 and 10.11 for custom fields</li>
+  <li>Disable service menu for protected attributes</li>
+  <li>Adjustes size for Autotype selection window to allow for bigger images</li>
+  <li>Hide protected attributes in dialog</li>
+  <li>Merging KDB files with different options to prevent group duplication</li>
+  <li>Changed search bar to allow for smaller windows size by putting invisible options in menu</li>
+  <li>Fixed faded custom icons under 10.13 and above</li>
+  <li>Fixed missing changed state when trash is emptied</li>
+  <li>Show passwords is temporary, changing entries (or locking the db) will hide the password again. fixes <a href="https://github.com/MacPass/MacPass/issues/806">#806</a></li>
+  <li>Set tabbing mode to preferred to encourage MacPass to use tabs</li>
+  <li>Removing searchWithGoogle and all submenu actions from context menu</li>
+  <li>Dropping attachment onto an entry now adds a history entry if needed. (Fixes <a href="https://github.com/MacPass/MacPass/issues/789">#789</a>)</li>
+  <li>Fixed XML export missing Attachments <a href="https://github.com/MacPass/MacPass/issues/784">#784</a></li>
+  <li>Fixed issue with multiple Attachments not being handled correctly on export <a href="https://github.com/MacPass/MacPass/issues/788">#788</a></li>
+  <li>Do not escape url string as they should already be completly escaped (fixes <a href="https://github.com/MacPass/MacPass/issues/743">#743</a>)</li>
+  <li>Added “everywhere” search option</li>
+  <li>Set Cmd + T as default keystroke for autotype command</li>
+  <li>Added autotype button to toolbar</li>
+  <li>Added item menu to main menu. This enabled copy actions in main menu if no focus is on enties (e.g when searching)</li>
+  <li>pressing down in search input will focus entries (<a href="https://github.com/MacPass/MacPass/issues/707">#707</a>)</li>
+  <li>re-enabled type selection in entry table view (fixes <a href="https://github.com/MacPass/MacPass/issues/740">#740</a>)</li>
+  <li>fixes an issue with empty icons being generated when downloading them (fixes <a href="https://github.com/MacPass/MacPass/issues/709">#709</a>)</li>
+  <li>pressing down on search field will move to entries list</li>
+  <li>Added support for {PICKFIELD} placeholder</li>
+  <li>Added support for {PICKCHARS} placeholder</li>
+  <li>fixed issue with wrong clear timeout when pasting was done inside the clear timeout</li>
+  <li>only save database on lock if file was acutally changed. Otherweise leave it be.</li>
+  <li>Mark document as changed after synchronization regardless of what has changed</li>
+</ul>
+<p>For a complete list of changes see <a href="https://github.com/mstarke/MacPass/compare/0.7.3...0.7.4">0.7.3…0.7.4</a> and the corresponding submodule commits</p>
+
+<h3>Changes in 0.7</h3>
+<p>MacPass 0.7 introduces a lot of changes and a vast amount of bug fixes.<p>
+<p><strong>Version 0.7 breaks the old plugin API. Thus you need to update any plugins to work again!</strong></p>
+<h4>Features</h4>
+<ul>
+  <li>KDBX4 support (ChaCha Cipher, Argon2 Key Derivation)</li>
+  <li>Database merge on file change as well as manual merge</li>
+  <li>Twofish Cipher for KDB and KDBX databases</li>
+  <li>Full support of the entry history</li>
+  <li>Partial support for multi-selection of entries and groups</li>
+  <li>Support for custom icons</li>
+  <li>Create custom icons from favorite icons for URLs</li>
+  <li>Enhanced display in database settings</li>
+  <li>Auto-completion for tags</li>
+  <li>Background color of entries is used to colorize default icons</li>
+  <li>Added settings to enabled and change history support on databases</li>
+  <li>Added additional enforce password change once option</li>
+  <li>Added setting to lock database if user changes (e.g fast user switching)</li>
+  <li>Moved custom fields to the general tab and removed additional tab.</li>
+  <li>Removed a lot of annoyances when working with KDB files</li>
+  <li>Enhanced Auto-type candidate selection dialog</li>
+</ul>
+<h4>Bugfixes</h4>
+<ul>
+  <li>fixed broken clearing of clipboard when copy is  directly invoked via <code>Cmd+C</code> or menu item on text inputs</li>
+  <li>fixed issues resulting in placeholders not being evaluated on Auto-type</li>
+  <li>fixed multiple issues resulting in lost data after edits (notes in particular)</li>
+  <li>removed many incompatibilities in KDBX output with other Keepass clients</li>
+</ul>
+<h4>Known Issues</h4>
+<ul>
+  <li>it's currently not possible to show protected custom attributes independently from their protected setting</li>
+</ul>
+<p>For a complete list of changes see <a href="https://github.com/mstarke/MacPass/compare/0.6.2-alpha...0.7.4">0.6.2-alpha…0.7.4</a> and the corresponding submodule commits</p>
+<p><strong>Version 0.7 requires macOS 10.10. Support for 10.8 and 10.9 has been dropped.</strong></p>
