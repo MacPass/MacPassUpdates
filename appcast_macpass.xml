@@ -87,7 +87,13 @@
 			<pubDate>Di 19 Mär 2019 10:38:34 CET</pubDate>
 			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.7.4/MacPass-0.7.4.zip" sparkle:shortVersionString="0.7.4" sparkle:version="21250" type="application/octet-stream" />
 		</item>
-
+		<item>
+			<title>Version 0.7.5</title>
+			<sparkle:releaseNotesLink>https://macpass.github.io/MacPassUpdates/release-notes/release-notes-0.7.5.html</sparkle:releaseNotesLink>
+			<sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
+			<pubDate>Di 19 Mär 2019 17:13:47 CET</pubDate>
+			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.7.5/MacPass-0.7.5.zip" sparkle:shortVersionString="0.7.5" sparkle:version="21260" type="application/octet-stream" />
+		</item>
 
 	</channel>
 </rss>
