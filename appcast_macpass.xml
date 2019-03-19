@@ -80,6 +80,14 @@
 			<pubDate>Do 23 Nov 2017 08:22:45 UTC</pubDate>
 			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.7.3/MacPass-0.7.3.zip" sparkle:shortVersionString="0.7.3" sparkle:version="17830" type="application/octet-stream" />
 		</item>
+		<item>
+			<title>Version 0.7.4</title>
+			<sparkle:releaseNotesLink>https://macpass.github.io/MacPassUpdates/release-notes/release-notes-0.7.4.html</sparkle:releaseNotesLink>
+			<sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
+			<pubDate>Di 19 Mär 2019 10:38:34 CET</pubDate>
+			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.7.4/MacPass-0.7.4.zip" sparkle:shortVersionString="0.7.4" sparkle:version="21250" type="application/octet-stream" />
+		</item>
+
 
 	</channel>
 </rss>
