@@ -32,8 +32,11 @@
   <li>Added item menu to main menu. This enabled copy actions in main menu if no focus is on enties (e.g when searching)</li>
   <li>Pressing down in search input will focus entries (<a href="https://github.com/MacPass/MacPass/issues/707">#707</a>)</li>
   <li>only save database on lock if file was actually changed. Otherweise leave it be.</li>
-  <li>Added support for {PICKFIELD} placeholder</li>
-  <li>Added support for {PICKCHARS} placeholder</li></ul>
+  <li>Added full support for {PICKFIELD} placeholder</li>
+  <li>Added experimental support for {PICKCHARS} placeholder</li>
+  <li>Added support for merging KDB files with different options to prevent group duplication</li>
+  <li>Backported custom support to save Recyclebin and Databasename to KDB files</li>
+</ul>
 <h4>Bugfixes</h4>
 <ul>
   <li>fixed crash occuring when certain file errors where encountered due to a wrongly drained autorelease pool</li>
@@ -54,7 +57,6 @@
   <li>Fixed rendering bug on 10.10 and 10.11 for custom fields</li>
   <li>Adjustes size for Autotype selection window to allow for bigger images</li>
   <li>Hide protected attributes in dialog</li>
-  <li>Merging KDB files with different options to prevent group duplication</li>
   <li>Changed search bar to allow for smaller windows size by putting invisible options in menu</li>
   <li>Fixed faded custom icons under 10.13 and above</li>
   <li>Fixed missing changed state when trash is emptied</li>
@@ -69,6 +71,38 @@
   <li>Fixes an issue with empty icons being generated when downloading them (fixes <a href="https://github.com/MacPass/MacPass/issues/709">#709</a>)</li>
   <li>fixed issue with wrong clear timeout when pasting was done inside the clear timeout</li>
   <li>Mark document as changed after synchronization regardless of what has changed</li>
+</ul>
+<h4>Included KeePassKit Changes and Fixes</h4>
+<ul>
+    <li>fixed overreleasing errors because of autorelease pool drainage</li>
+    <li>Added search/autotype group attributes to minimum version detection</li>
+    <li>Fixed missing protection settings when creating new entries</li>
+    <li>Fixed regular expression inside non-reg-ex window titles will not get evaluated</li>
+    <li>Fixed issue when encryption Vector size is supplied before cipher UUID in header</li>
+    <li>Fixed issue with empty dates causing assertions</li>
+    <li>Fixed serious issue with groups resetting their uuids on copyWithTitle</li>
+    <li>generate new UUIDs when a group is copied for all entries and groups, otherwise shit hits the fan</li>
+    <li>Changed pasteboard writing to promised since archiving groups might be quite slow</li>
+    <li>Trash data is stored in KDB databases.</li>
+    <li>KDB now stores database name and database description as meta entry.</li>
+    <li>disable trash for KDB tries by default</li>
+    <li>Fixed potential missuse of KPKTimeInfo isEqualToTimeInfo API</li>
+    <li>Introduced evaluation options for commands to signal non-interactive mode</li>
+    <li>Expiration is not set to true if date is set on KDB files on load.</li>
+    <li>using correct format for reference resolving</li>
+    <li>Writing and parsing of UUID and DeletedObject in KDB added</li>
+    <li>Fixed missing update of locationChangedDate when parents match but times do not.</li>
+    <li>Fixed issue with modification time being updated when items are copied. Extenede tests for this misbehaviour</li>
+    <li>Switching to Core Image to render PNG data to fix gamma error in PNG output</li>
+    <li>added ignoreUUIDs to compare API. Exteneded title based group search in synchronization</li>
+    <li>fixed issues with unsupported stack sized arrays moving to heap allocation</li>
+    <li>Fixed issue resulting in duplicate binary data being added to the file</li>
+    <li>Fixed issues with multipe binaries being re-used on load resulting in unwanted duplicates</li>
+    <li>Fixed issue allowing duplicate binaries inside a singel entry.</li>
+    <li>Fixed bug that resulted in lost attachements in history or if attachments were used on multiple items</li>
+    <li>Fixed bug resulting in missing binaries in XML output of KDBX files</li>
+    <li>Trash should not be included in search nor autotype</li>
+    <li>enable trash by default</li>
 </ul>
 <p>For a complete list of changes see <a href="https://github.com/mstarke/MacPass/compare/0.7.3...0.7.4">0.7.3…0.7.4</a> and the corresponding submodule commits</p>
 
