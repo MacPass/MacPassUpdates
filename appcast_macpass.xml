@@ -94,6 +94,13 @@
 			<pubDate>Di 19 Mär 2019 17:13:47 CET</pubDate>
 			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.7.5/MacPass-0.7.5.zip" sparkle:shortVersionString="0.7.5" sparkle:version="21260" type="application/octet-stream" />
 		</item>
+		<item>
+			<title>Version 0.7.6</title>
+			<sparkle:releaseNotesLink>https://macpass.github.io/MacPassUpdates/release-notes/release-notes-0.7.6.html</sparkle:releaseNotesLink>
+			<sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
+			<pubDate>Do 21 Mär 2019 08:16:30 CET</pubDate>
+			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.7.6/MacPass-0.7.6.zip" sparkle:shortVersionString="0.7.6" sparkle:version="21340" type="application/octet-stream" />
+		</item>
 
 	</channel>
 </rss>
