@@ -8,126 +8,126 @@
 		<item><title>Version 0.4</title>
 			<pubDate>Mon, 17 Mar 2014 20:00:00 GMT</pubDate>
 			<sparkle:releaseNotesLink>https://macpass.github.io/MacPassUpdates/release-notes/release-notes-0.4-alpha.html</sparkle:releaseNotesLink>
-			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.4-alpha/MacPass-0.4-alpha.zip" sparkle:shortVersionString="0.4" sparkle:version="2532" type="application/octet-stream" />
+			<enclosure url="https://github.com/MacPass/MacPass/releases/download/0.4-alpha/MacPass-0.4-alpha.zip" sparkle:shortVersionString="0.4" sparkle:version="2532" type="application/octet-stream" />
 		</item>
 		<item>
 			<title>Version 0.4.1</title>
 			<sparkle:releaseNotesLink>https://macpass.github.io/MacPassUpdates/release-notes/release-notes-0.4.1-alpha.html</sparkle:releaseNotesLink>
 			<pubDate>Mon, 17 Mar 2014 21:05:00 GMT</pubDate>
-			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.4.1/MacPass-0.4.1-alpha.zip" sparkle:shortVersionString="0.4.1" sparkle:version="2534" type="application/octet-stream" />
+			<enclosure url="https://github.com/MacPass/MacPass/releases/download/0.4.1/MacPass-0.4.1-alpha.zip" sparkle:shortVersionString="0.4.1" sparkle:version="2534" type="application/octet-stream" />
 		</item>
 		<item>
 			<title>Version 0.5</title>
 			<sparkle:releaseNotesLink>https://macpass.github.io/MacPassUpdates/release-notes/release-notes-0.5-alpha.html</sparkle:releaseNotesLink>
 			<pubDate>Wed, 03 Dec 2014 18:18:11 GMT</pubDate>
-			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.5-alpha/MacPass-0.5-alpha.zip" sparkle:shortVersionString="0.5" sparkle:version="2554" type="application/octet-stream" />
+			<enclosure url="https://github.com/MacPass/MacPass/releases/download/0.5-alpha/MacPass-0.5-alpha.zip" sparkle:shortVersionString="0.5" sparkle:version="2554" type="application/octet-stream" />
 		</item>
 		<item>
 			<title>Version 0.5.1</title>
 			<sparkle:releaseNotesLink>https://macpass.github.io/MacPassUpdates/release-notes/release-notes-0.5.1-alpha.html</sparkle:releaseNotesLink>
 			<pubDate>Wed, 03 Dec 2014 20:20:48 GMT</pubDate>
-			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.5.1-alpha/MacPass-0.5.1-alpha.zip" sparkle:shortVersionString="0.5.1" sparkle:version="2556" type="application/octet-stream" />
+			<enclosure url="https://github.com/MacPass/MacPass/releases/download/0.5.1-alpha/MacPass-0.5.1-alpha.zip" sparkle:shortVersionString="0.5.1" sparkle:version="2556" type="application/octet-stream" />
 		</item>
 		<item>
 			<title>Version 0.5.2</title>
 			<sparkle:releaseNotesLink>https://macpass.github.io/MacPassUpdates/release-notes/release-notes-0.5.2-alpha.html</sparkle:releaseNotesLink>
 			<pubDate>Wed, 10 Feb 2016 23:00:00 GMT</pubDate>
-			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.5.2-alpha/MacPass-0.5.2-alpha.zip" sparkle:shortVersionString="0.5.2" sparkle:version="2557" type="application/octet-stream" />
+			<enclosure url="https://github.com/MacPass/MacPass/releases/download/0.5.2-alpha/MacPass-0.5.2-alpha.zip" sparkle:shortVersionString="0.5.2" sparkle:version="2557" type="application/octet-stream" />
 		</item>
 		<item>
 			<title>Version 0.6</title>
 			<sparkle:releaseNotesLink>https://macpass.github.io/MacPassUpdates/release-notes/release-notes-0.6-alpha.html</sparkle:releaseNotesLink>
 			<pubDate>Fr 12 Feb 2016 17:24:06 UTC</pubDate>
-			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.6-alpha/MacPass-0.6-alpha.zip" sparkle:shortVersionString="0.6" sparkle:version="12310" type="application/octet-stream" />
+			<enclosure url="https://github.com/MacPass/MacPass/releases/download/0.6-alpha/MacPass-0.6-alpha.zip" sparkle:shortVersionString="0.6" sparkle:version="12310" type="application/octet-stream" />
 		</item>
 		<item>
 			<title>Version 0.6.1</title>
 			<sparkle:releaseNotesLink>https://macpass.github.io/MacPassUpdates/release-notes/release-notes-0.6.1-alpha.html</sparkle:releaseNotesLink>
 			<pubDate>Mo 15 Feb 2016 16:54:03 UTC</pubDate>
-			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.6.1-alpha/MacPass-0.6.1-alpha.zip" sparkle:shortVersionString="0.6.1" sparkle:version="12350" type="application/octet-stream" />
+			<enclosure url="https://github.com/MacPass/MacPass/releases/download/0.6.1-alpha/MacPass-0.6.1-alpha.zip" sparkle:shortVersionString="0.6.1" sparkle:version="12350" type="application/octet-stream" />
 		</item>
 		<item>
 			<title>Version 0.6.2</title>
 			<sparkle:releaseNotesLink>https://macpass.github.io/MacPassUpdates/release-notes/release-notes-0.6.2-alpha.html</sparkle:releaseNotesLink>
 			<pubDate>Mo 22 Feb 2016 10:05:00 UTC</pubDate>
-			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.6.2-alpha/MacPass-0.6.2-alpha.zip" sparkle:shortVersionString="0.6.2" sparkle:version="12420" type="application/octet-stream" />
+			<enclosure url="https://github.com/MacPass/MacPass/releases/download/0.6.2-alpha/MacPass-0.6.2-alpha.zip" sparkle:shortVersionString="0.6.2" sparkle:version="12420" type="application/octet-stream" />
 		</item>
 		<item>
 			<title>Version 0.7</title>
 			<sparkle:releaseNotesLink>https://macpass.github.io/MacPassUpdates/release-notes/release-notes-0.7.html</sparkle:releaseNotesLink>
 			<sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
 			<pubDate>Mi 15 Nov 2017 15:46:15 UTC</pubDate>
-			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.7/MacPass-0.7.zip" sparkle:shortVersionString="0.7" sparkle:version="17520" type="application/octet-stream" />
+			<enclosure url="https://github.com/MacPass/MacPass/releases/download/0.7/MacPass-0.7.zip" sparkle:shortVersionString="0.7" sparkle:version="17520" type="application/octet-stream" />
 		</item>
 		<item>
 			<title>Version 0.7.1</title>
 			<sparkle:releaseNotesLink>https://macpass.github.io/MacPassUpdates/release-notes/release-notes-0.7.1.html</sparkle:releaseNotesLink>
 			<sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
 			<pubDate>Do 16 Nov 2017 18:39:15 UTC</pubDate>
-			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.7.1/MacPass-0.7.1.zip" sparkle:shortVersionString="0.7.1" sparkle:version="17630" type="application/octet-stream" />
+			<enclosure url="https://github.com/MacPass/MacPass/releases/download/0.7.1/MacPass-0.7.1.zip" sparkle:shortVersionString="0.7.1" sparkle:version="17630" type="application/octet-stream" />
 		</item>
 		<item>
 			<title>Version 0.7.2</title>
 			<sparkle:releaseNotesLink>https://macpass.github.io/MacPassUpdates/release-notes/release-notes-0.7.2.html</sparkle:releaseNotesLink>
 			<sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
 			<pubDate>Di 21 Nov 2017 16:30:37 UTC</pubDate>
-			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.7.2/MacPass-0.7.2.zip" sparkle:shortVersionString="0.7.2" sparkle:version="17800" type="application/octet-stream" />
+			<enclosure url="https://github.com/MacPass/MacPass/releases/download/0.7.2/MacPass-0.7.2.zip" sparkle:shortVersionString="0.7.2" sparkle:version="17800" type="application/octet-stream" />
 		</item>
 		<item>
 			<title>Version 0.7.3</title>
 			<sparkle:releaseNotesLink>https://macpass.github.io/MacPassUpdates/release-notes/release-notes-0.7.3.html</sparkle:releaseNotesLink>
 			<sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
 			<pubDate>Do 23 Nov 2017 08:22:45 UTC</pubDate>
-			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.7.3/MacPass-0.7.3.zip" sparkle:shortVersionString="0.7.3" sparkle:version="17830" type="application/octet-stream" />
+			<enclosure url="https://github.com/MacPass/MacPass/releases/download/0.7.3/MacPass-0.7.3.zip" sparkle:shortVersionString="0.7.3" sparkle:version="17830" type="application/octet-stream" />
 		</item>
 		<item>
 			<title>Version 0.7.4</title>
 			<sparkle:releaseNotesLink>https://macpass.github.io/MacPassUpdates/release-notes/release-notes-0.7.4.html</sparkle:releaseNotesLink>
 			<sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
 			<pubDate>Tue 19 Mar 2019 09:38:34 UTC</pubDate>
-			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.7.4/MacPass-0.7.4.zip" sparkle:shortVersionString="0.7.4" sparkle:version="21250" type="application/octet-stream" />
+			<enclosure url="https://github.com/MacPass/MacPass/releases/download/0.7.4/MacPass-0.7.4.zip" sparkle:shortVersionString="0.7.4" sparkle:version="21250" type="application/octet-stream" />
 		</item>
 		<item>
 			<title>Version 0.7.5</title>
 			<sparkle:releaseNotesLink>https://macpass.github.io/MacPassUpdates/release-notes/release-notes-0.7.5.html</sparkle:releaseNotesLink>
 			<sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
 			<pubDate>Tue 19 Mar 2019 16:13:47 UTC</pubDate>
-			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.7.5/MacPass-0.7.5.zip" sparkle:shortVersionString="0.7.5" sparkle:version="21260" type="application/octet-stream" />
+			<enclosure url="https://github.com/MacPass/MacPass/releases/download/0.7.5/MacPass-0.7.5.zip" sparkle:shortVersionString="0.7.5" sparkle:version="21260" type="application/octet-stream" />
 		</item>
 		<item>
 			<title>Version 0.7.6</title>
 			<sparkle:releaseNotesLink>https://macpass.github.io/MacPassUpdates/release-notes/release-notes-0.7.6.html</sparkle:releaseNotesLink>
 			<sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
 			<pubDate>Thu 21 Mar 2019 07:16:30 UTC</pubDate>
-			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.7.6/MacPass-0.7.6.zip" sparkle:shortVersionString="0.7.6" sparkle:version="21340" type="application/octet-stream" />
+			<enclosure url="https://github.com/MacPass/MacPass/releases/download/0.7.6/MacPass-0.7.6.zip" sparkle:shortVersionString="0.7.6" sparkle:version="21340" type="application/octet-stream" />
 		</item>
 		<item>
 			<title>Version 0.7.7</title>
 			<sparkle:releaseNotesLink>https://macpass.github.io/MacPassUpdates/release-notes/release-notes-0.7.7.html</sparkle:releaseNotesLink>
 			<sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
 			<pubDate>Wed Mar 27 10:01:08 UTC 2019</pubDate>
-			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.7.7/MacPass-0.7.7.zip" sparkle:shortVersionString="0.7.7" sparkle:version="21420" type="application/octet-stream" />
+			<enclosure url="https://github.com/MacPass/MacPass/releases/download/0.7.7/MacPass-0.7.7.zip" sparkle:shortVersionString="0.7.7" sparkle:version="21420" type="application/octet-stream" />
 		</item>
 		<item>
 			<title>Version 0.7.8</title>
 			<sparkle:releaseNotesLink>https://macpass.github.io/MacPassUpdates/release-notes/release-notes-0.7.8.html</sparkle:releaseNotesLink>
 			<sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
 			<pubDate>Sun Mar 31 14:22:10 UTC 2019</pubDate>
-			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.7.8/MacPass-0.7.8.zip" sparkle:shortVersionString="0.7.8" sparkle:version="21560" type="application/octet-stream" />
+			<enclosure url="https://github.com/MacPass/MacPass/releases/download/0.7.8/MacPass-0.7.8.zip" sparkle:shortVersionString="0.7.8" sparkle:version="21560" type="application/octet-stream" />
 		</item>
 		<item>
 			<title>Version 0.7.9</title>
 			<sparkle:releaseNotesLink>https://macpass.github.io/MacPassUpdates/release-notes/release-notes-0.7.9.html</sparkle:releaseNotesLink>
 			<sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
 			<pubDate>Sun Mar 31 18:53:59 UTC 2019</pubDate>
-			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.7.9/MacPass-0.7.9.zip" sparkle:shortVersionString="0.7.9" sparkle:version="21570" type="application/octet-stream" />
+			<enclosure url="https://github.com/MacPass/MacPass/releases/download/0.7.9/MacPass-0.7.9.zip" sparkle:shortVersionString="0.7.9" sparkle:version="21570" type="application/octet-stream" />
 		</item>
 		<item>
 			<title>Version 0.7.10</title>
 			<sparkle:releaseNotesLink>https://macpass.github.io/MacPassUpdates/release-notes/release-notes-0.7.10.html</sparkle:releaseNotesLink>
 			<sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
 			<pubDate>Mo 28 Okt 2019 20:43:08 UTC</pubDate>
-			<enclosure url="https://github.com/mstarke/MacPass/releases/download/0.7.10/MacPass-0.7.10.zip" sparkle:shortVersionString="0.7.10" sparkle:version="22740" type="application/octet-stream" />
+			<enclosure url="https://github.com/MacPass/MacPass/releases/download/0.7.10/MacPass-0.7.10.zip" sparkle:shortVersionString="0.7.10" sparkle:version="22740" type="application/octet-stream" />
 		</item>	
 	</channel>
 </rss>
