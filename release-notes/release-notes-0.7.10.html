@@ -1,0 +1,51 @@
+<h3>Changelog</h3>
+
+This update contains various changes to make MacPass work on macOS 10.15 Catalina.
+
+<h4>Known Issue</h4>
+<ul>
+    <li>Databases located on network drives or external storage might not get saved with an error message. A possible workaround is to open the file via the Finder, which should allow MacPass to write to those locations. A future update of MacPass will fix this issue</li>
+</ul>
+
+<h4>Changes</h4>
+<ul>
+    <li>MacPass is notarized</li>
+    <li>Added button to initiate screen recording permission request on macOS 10.15 Catalina</li>
+    <li>Added correct system preferences url to open screen capture privacy pane</li>
+    <li>Use enter to accept a field in PICKFIELD view</li>
+    <li>Add duplicate group to context menu <a href="https://github.com/MacPass/MacPass/issues/963">#963</a></li>
+    <li>Added show group in outline to context menus</li>
+    <li>Added double click action to select the group of the currently selected entry.</li>
+    <li>Add touchbar support (<a href="https://github.com/MacPass/MacPass/issues/862">#862</a>)</li>
+    <li>Introduced Autotype doctor in preparation for macOS 10.15.</li>
+    <li>Make plugin repository lookup optional (<a href="https://github.com/MacPass/MacPass/issues/944">#944</a>)</li>
+    <li>Using a notification based aproach to ensure the desired target application is activated before performing any autotype commands</li>
+    <li>added load external content ui for settings</li>
+    <li>Added support for <code>{DELAY=&lt;delay&gt;}</code> to allow for custom delay in command execution instead of using dedicated UI and settings for this (fixes <a href="https://github.com/MacPass/MacPass/issues/551">#551</a>)</li>
+    <li>Added API for Autotype plugins that resolve window titles (AutotypeURL uses this)</li>
+    <li>Re-worked hide after copy to pasteboard. It now works for all copy actions that securely copy to the clipboard (closed <a href="https://github.com/MacPass/MacPass/issues/906">#906</a>)</li>
+    <li>Reenabled tabable key selection also fixing first responder issue when closing password generator popover (fixes <a href="https://github.com/MacPass/MacPass/issues/896">#896</a>)</li>
+    <li>Keyfile selection window must be modal (<a href="https://github.com/MacPass/MacPass/issues/898">#898</a>)</li>
+    <li>Translation to spanish improved (<a href="https://github.com/MacPass/MacPass/issues/953">#953</a>)</li>
+    <li>Update zh-Hans translation (<a href="https://github.com/MacPass/MacPass/issues/968">#968</a>)</li>
+    <li>Update Italian Localization (<a href="https://github.com/MacPass/MacPass/issues/965">#965</a>)</li>
+    <li>Updated english localization</li>
+    <li>Updated german localization (<a href="https://github.com/MacPass/MacPass/issues/943">#943</a>)</li>
+    <li>Updated dutch localization</li>
+    <li>Updated french localization</li>
+    <li>Russian localization (<a href="https://github.com/MacPass/MacPass/issues/918">#918</a>)</li>
+</ul>
+<h4>Bugfixes</h4>
+<ul>
+    <li>Dutch advanced database settings tab was broken because of a malformed localisation (fixes <a href="https://github.com/MacPass/MacPass/issues/913">#913</a>)</li>
+    <li>Added missing palettlabel to toolbar items to show up in customizing sheet</li>
+    <li>Retain custom file extension if present and do not change back to .kdbx (or .kdb) (<a href="https://github.com/MacPass/MacPass/issues/790">#790</a>)</li>
+    <li>Updated KeePassKit to fix various Pickchars issues
+    <li>Updated plugin retrieval to overwrite exiting file</li>
+    <li>Updated KeePassKit to fix KDBX4 date offset bug (-2days) (<a href="https://github.com/MacPass/MacPass/issues/966">#966</a>)</li>
+    <li>Do not show welcome window when we are asked to open a file via double-click in the Finder (<a href="https://github.com/MacPass/MacPass/issues/564">#564</a>)</li>
+    <li>Fixed missing break in action validation resulting in copy as reference and copy custom attributes note working in search mode</li>
+    <li>Fix localized string ambiguous with word allow/disallow (<a href="https://github.com/MacPass/MacPass/issues/959">#959</a>)</li>
+    <li>wired plugin repository download settings and fixed crash when initializing plugin host</li>
+ </ul>
+<p>For a complete list of changes see <a href="https://github.com/mstarke/MacPass/compare/0.7.9...0.7.10">0.7.9…0.7.10</a> and the corresponding submodule commits</p>
