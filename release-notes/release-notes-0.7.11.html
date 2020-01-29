@@ -1,0 +1,32 @@
+<h3>Changelog</h3>
+
+This update contains more changes to make MacPass behaver better on macOS 10.15 Catalina.
+
+<h4>Changes</h4>
+<ul>
+    <li>Added privacy usage descriptions for all folders to enhance macOS 10.15 Catalina experience</li>
+    <li>Refactored Autotype to use environment for better encapsulation of parameters</li>
+    <li>Better placeholder for search field to clarify location of the search. Also made the search field larger.</li>
+    <li>Center search in 10.14 and above, keep it "centerish" in older systems (fixes <a href="https://github.com/MacPass/MacPass/issues/1025">#1025</a> <a href="https://github.com/MacPass/MacPass/issues/1026">#1026</a>)</li>
+    <li>Added sanity checks to key file selection in unlock screen (fixes <a href="https://github.com/MacPass/MacPass/issues/1008">#1008</a>)</li>
+    <li>Re-hide MacPass if it was shown only for autotype candidate selection (fixes <a href="https://github.com/MacPass/MacPass/issues/964">#964</a>)</li>
+    <li>Use textual date picker instead of graphical one. Fixes <a href="https://github.com/MacPass/MacPass/issues/923">#923</a></li>
+    <li>Add Lock database on Screen Sleep (<a href="https://github.com/MacPass/MacPass/issues/998">#998</a>)</li>
+    <li>Disabled currently unused context button for add fields button (fixes <a href="https://github.com/MacPass/MacPass/issues/995">#995</a>)</li>
+    <li>Do show info when no recent documents are present in Welcome Window (fixes <a href="https://github.com/MacPass/MacPass/issues/996">#996</a>)</li>
+    <li>Updated at now displays a special text if remote updates are disabled</li>
+    <li>Added simple support for import/export plugins via plugin API</li>
+</ul>
+<h4>Bugfixes</h4>
+<ul>
+    <li>Removed delayed write of preview files to fix missing preview in macOs 10.15 Catalina (fix <a href="https://github.com/MacPass/MacPass/issues/1016">#1016</a>)</li>
+    <li>Use textual date picker instead of graphical one. Fixes <a href="https://github.com/MacPass/MacPass/issues/923">#923</a></li>
+    <li>Add Lock database on Screen Sleep (<a href="https://github.com/MacPass/MacPass/issues/998">#998</a>)</li>
+    <li>Altered screen recording check to Craig Hockenberry's solution (fixes <a href="https://github.com/MacPass/MacPass/issues/993">#993</a>)</li>
+    <li>Fixed broken Key file selection dialog buttons on macOS 10.15 Catalina (fixes <a href="https://github.com/MacPass/MacPass/issues/1005">#1005</a>)</li>
+    <li>Fixed overlay window image color (<a href="https://github.com/MacPass/MacPass/issues/1007">#1007</a> <a href="https://github.com/MacPass/MacPass/issues/999">#999</a> <a href="https://github.com/MacPass/MacPass/issues/982">#982</a>)</li>
+    <li>Fixed Cancel search mode while the search field is empty (<a href="https://github.com/MacPass/MacPass/issues/945">#945</a> <a href="https://github.com/MacPass/MacPass/issues/946">#946</a>)</li>
+    <li>Fixed resetting of url copy or open after each application launch (fixes <a href="https://github.com/MacPass/MacPass/issues/989">#989</a>)</li>    
+
+</ul>
+<p>For a complete list of changes see <a href="https://github.com/mstarke/MacPass/compare/0.7.10...0.7.11">0.7.10…0.7.11</a> and the corresponding submodule commits</p>
