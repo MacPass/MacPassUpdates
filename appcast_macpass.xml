@@ -135,6 +135,13 @@
 			<sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
 			<pubDate>Wed Jan 29 10:41:54 UTC 2020</pubDate>
 			<enclosure url="https://github.com/MacPass/MacPass/releases/download/0.7.11/MacPass-0.7.11.zip" sparkle:shortVersionString="0.7.11" sparkle:version="23550" type="application/octet-stream" />
+		</item>
+		<item>
+			<title>Version 0.7.12</title>
+			<sparkle:releaseNotesLink>https://macpass.github.io/MacPassUpdates/release-notes/release-notes-0.7.12.html</sparkle:releaseNotesLink>
+			<sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
+			<pubDate>Wed Mar 25 20:40:31 UTC 2020</pubDate>
+			<enclosure url="https://github.com/MacPass/MacPass/releases/download/0.7.12/MacPass-0.7.12.zip" sparkle:shortVersionString="0.7.12" sparkle:version="23610" type="application/octet-stream" />
 		</item>	
 	</channel>
 </rss>
