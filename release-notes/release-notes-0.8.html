@@ -1,0 +1,78 @@
+<h3>Changelog</h3>
+
+<p style="border-radius: 0.5rem; border:2px solid #ff6600; padding:0.5rem;"><strong>Dear MacPass user. Thank you for sticking with MacPass dispite no official updates to fix all those anoying bugs in macOS Big Sur and macOS Monterey. I am deeply sorry for keeping you waiting for far to long</strong></p>
+<p>MacPass 0.8 introduces a lot of long overdue changes and a vast amount of bug fixes for macOS 11 and 12.<p>
+<h4>Notable Changes</h4>
+<ul>
+<li>Fixed UI issues on macOS 11 Big Sur and macOS 12 Monterey</li>
+<li>Added native support for Apple Silicon</li>
+<li>Added support for KDBX 4.1 format</li>
+<li>Added support for Version 2 XML keyfiles</li>
+<li>Added support for Argon2id key derivation</li>
+<li>Added support for TOPT codes</li>
+<li>Added setting to always show confirmation before autotype execution</li>
+<li>Display screenshot of target window in autotype confirmation/selection dialog.</li>
+</ul>
+
+<h4>Bugfixes</h4>
+<ul>
+<li>Fixed #1206 that would cancel version browsing in time machine if the key file open panel is shown</li>
+<li>Fixed truncated content in text fields</li>
+<li>Fixed wrong wiring of benchmark for key derivation parameters</li>
+<li>Fixed hotkeys being unregistered when changing tabs. Fixes #883</li>
+<li>Added copy action to TOTP editor. Fixes #1186</li>
+<li>Removed unneeded property. Changed how search tracks updates when file structure changes. Fixes #721</li>
+<li>Re-added undo support for notes fields. Fixes #1180</li>
+<li>Fixed issue re-selection selected groups when exiting search.</li>
+<li>Fixed missing selection update, when search yields results</li>
+<li>fixed autofill on big sur for password field (#1125)</li>
+<li>Fixed duplicated entry not being selected in in entry table view.</li>
+<li>Fixed issue with first entry being displayed in inspector when a group is clicked.</li>
+<li>Fixed low contrast in Autotype candidate selection window (fixes #1054)</li>
+</ul>
+
+<h4>Changes</h4>
+<ul>
+<li>Enabled version browsing when database is locked</li>
+<li>Only store last document, when MacPass is terminating</li>
+<li>Added tags input to group inspector</li>
+<li>Made scrollview in groups inspector tab actually work</li>
+<li>Added option to display passwords as clear text in entry list view. Fixes #347</li>
+<li>Added option to show search after unlocking the database</li>
+<li>Create XMLv2 key files for all KDBX >3.1  databases</li>
+<li>Defaulting to unified toolbar on Big Sur and above</li>
+<li>Display a red icon if the entry or group is expired</li>
+<li>Added UI setting to control toolbar style</li>
+<li>Only leave one autotype notification in the stacke to prevent polution.</li>
+<li>Updated visual styles of buttons to look ok on Big Sur</li>
+<li>Added settings to disable password generation for newly created entries. Fixes #1050</li>
+<li>Added column to display creation date. Fixed #1150</li>
+<li>Using SFSymbols where possible instead of custom icons</li>
+<li>Extended error display in password change sheet</li>
+<li>Fixed issue resulting in confirmation dialog being displayed if not matches where found.</li>
+<li>Enabled Time OTP display.</li>
+<li>Adjusted checks for auto-type permissions</li>
+<li>Enabled display of prettified passwords in password generator and entry inspector</li>
+<li>Use automatic row height to allow for multi-line custom fields</li>
+<li>adjusted welcome view layout (#1101)</li>
+<li>Added override sequence to autotype environment</li>
+<li>Use DuckDuckGo favicon service (#1073)</li>
+<li>Tags are now search case insensitive (fixes #1048)</li>
+</ul>
+
+<h4>Localization:</h4>
+<ul>
+<li>Added zh-Hant translation (#1065)</li>
+<li>Added czech localization (#1194)</li>
+<li>Added japanese translation files. (#1100)</li>
+<li>Added ukrainian translations (#1076)</li>
+<li>Updated zh-hans localization (#1179)</li>
+<li>Updated german localisation</li>
+<li>Updated french localizations (#1047)</li>
+<li>Updated polish translation (#1141)</li>
+<li>Updated russian localization (#1114)</li>
+</ul>
+<p>For a complete list of changes see <a href="https://github.com/mstarke/MacPass/compare/0.7.12...0.8">0.7.12…0.8</a> and the corresponding submodule commits</p>
+<p><strong>Version 0.8 requires macOS 10.13. Support for 10.12 and below has been dropped.</strong></p>
+
+
